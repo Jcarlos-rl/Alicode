@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <title>Alicode</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -38,7 +39,7 @@
                 <div class="background">
                 </div>
                 <a href="#user"><img class="circle" src="images/logo.png"></a>
-                <a href="#name"><span class="white-text name">Nombre</span></a>
+                <!--<a href="#name"><span class="white-text name">Nombre</span></a>-->
                 <br>
             </div>
         </li>
@@ -241,69 +242,6 @@
                 </div>
             </div>
         </div>
-        <!--<div class="row">
-            <div class="carousel">
-                <div class="carousel-item" href="#one!">
-                    <div class="center">
-                        <img src="images/simpsa.png" width="80" class="responsive-img" alt="">
-                        <h5 class="white-text margin-bottom-0">Tienda online</h5>
-                        <p class="white-text margin-top-0">Industriales Simpsa</p>
-                        <br>
-                        <a class="btn btn-service modal-trigger" href="#simpsa">Ver más</a>
-                    </div>
-                </div>
-                <a class="carousel-item" href="#two!">
-                    <div class="service center">
-                        <div class="subservice">
-                            <div class="content">
-                                <img src="images/apps.png" class="responsive-img" alt="">
-                                <h6 class="center gris-text">Aplicaciones</h6>
-                            </div>
-                        </div>
-                    </div>    
-                </a>
-                <a class="carousel-item" href="#three!">
-                    <div class="service center">
-                        <div class="subservice">
-                            <div class="content">
-                                <img src="images/support.png" class="responsive-img" alt="">
-                                <h6 class="center gris-text">Soporte Tecnico</h6>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a class="carousel-item" href="#four!">
-                    <div class="service center">
-                        <div class="subservice">
-                            <div class="content">
-                                <img src="images/consultoria.png" class="responsive-img" alt="">
-                                <h6 class="center gris-text">Consultoria</h6>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a class="carousel-item" href="#five!">
-                    <div class="service center">
-                        <div class="subservice">
-                            <div class="content">
-                                <img src="images/system.png" class="responsive-img" alt="">
-                                <h6 class="center gris-text">Implementación de Sistemas</h6>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <div class="carousel-item" href="#five!">
-                    <div class="service center">
-                        <div class="subservice">
-                            <div class="content">
-                                <img src="images/red.png" class="responsive-img" alt="">
-                                <h6 class="center gris-text">Instalacion de Redes</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>-->
     </div>
     <section id="contacto" class="contacto-background">
         <div class="container90">
@@ -314,30 +252,30 @@
                 <div class="col m3"></div>
                 <div class="col m6 white">
                     <h3 class="center raleway gris-text">Contacto</h3>
-                    <form class="col s12">
+                    <form class="col s12" method="POST" action="mail.php">
                         <div class="row">
                             <div class="input-field col s6">
-                            <input id="first_name" type="text" class="validate">
+                            <input id="first_name" type="text" class="validate" name="nombre">
                             <label for="first_name">Nombre</label>
                             </div>
                             <div class="input-field col s6">
-                            <input id="last_name" type="text" class="validate">
+                            <input id="last_name" type="text" class="validate" name="apellidos">
                             <label for="last_name">Apellidos</label>
                             </div>
                             <div class="input-field col s6">
-                                <input id="tel" type="tel" class="validate">
+                                <input id="tel" type="tel" class="validate" name="tel">
                                 <label for="tel">Telefono</label>
                             </div>
                             <div class="input-field col s6">
-                                <input id="email" type="email" class="validate">
+                                <input id="email" type="email" class="validate" name="mail">
                                 <label for="email">E-mail</label>
                             </div>
                             <div class="input-field col s12">
-                            <input id="asunto" type="text" class="validate">
+                            <input id="asunto" type="text" class="validate" name="asunto">
                             <label for="asunto">Asunto</label>
                             </div>
                             <div class="input-field col s12">
-                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <textarea id="textarea1" class="materialize-textarea" name="mensaje"></textarea>
                                 <label for="textarea1">Mensaje</label>
                             </div>
                         </div>
@@ -360,10 +298,14 @@
             <div class="col m3 s12">
                 <h5 class="white-text">Siguenos</h5>
                 <div class="circle-div center">
-                    <i class="fab fa-instagram color-i" style="font-size: 25px; margin-top: 5px"></i>
+                    <a href="https://www.instagram.com/alicode_mx/?hl=es-la" target="_blank">
+                        <i class="fab fa-instagram color-i" style="font-size: 25px; margin-top: 5px"></i>
+                    </a>
                 </div>
                 <div class="circle-div center" style="margin-left: 7px">
-                    <i class="fab fa-facebook-f color-i" style="font-size: 20px; margin-top: 8px"></i>
+                    <a href="https://www.facebook.com/AliCode-304042507128721/" target="_blank">
+                        <i class="fab fa-facebook-f color-i" style="font-size: 20px; margin-top: 8px"></i>
+                    </a>
                 </div>
             </div>
             </div>
