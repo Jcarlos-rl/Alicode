@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+/*/////////////////////////////////Contenedores responsivos modificados*/
+.container90{
+    margin:0 auto;
+    max-width:1280px;
+    width:90%
+}
+@media only screen and (min-width: 601px){
+    .container90{
+        width:85%
+    }
+}
+@media only screen and (min-width: 993px){
+    .container90{
+        width:90%
+    }
+}
+
+.container80{
+    margin:0 auto;
+    max-width:1280px;
+    width:90%
+}
+@media only screen and (min-width: 601px){
+    .container80{
+        width:85%
+    }
+    .cien-vh{
+        height: 100vh;
+    }
+}
+@media only screen and (min-width: 993px){
+    .container80{
+        width:80%
+    }
+    .cien-vh{
+        height: 100vh;
+    }
+    .paquete-1{
+        margin-top: 40px;
+    }
+    .paquete-2{
+        padding-bottom: 40px !important;
+    }
+    .paquete-3{
+        margin-top: 40px;
+    }
+}
+
+/*/////////////////////////////////Tipografia*/
+
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*/////////////////////////////////Espaciadores*/
+.spacing100{
+    height: 100px;
+}
+
+.spacing50{
+    height: 50px;
+}
+
+.spacing30vh{
+    height: 30vh;
+}
+
+.spacing20vh{
+    height: 20vh;
+}
+
+/*/////////////////////////////////Modificacion slider principal*/
+.relative-position{
+    position: relative;
+}
+.absolute-position {
+    position: absolute !important;
+}
+.slider .slides{
+    background-color: white !important;
+}
+
+
+/*/////////////////////////////////Nav*/
+.logo-nav{
+    margin-top: 0px;
+    width: 250px;
+}
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+    height: 70px !important;
+    line-height: 70px !important;
+}
+
+nav.nav-color{
+    background-color: transparent;
+}
+
+/*/////////////////////////////////Carousel*/
+.service{
+    width: 200px;
+    height: 200px;
+}
+.subservice{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-top: 9px;
+    border: 1px solid rgba(10, 16, 33, 0.5);
+}
+.content{
+    margin-top: 5px;
+}
+.carousel .indicators .indicator-item.active{
+    background-color: #fff;
+}
+.carousel .indicators .indicator-item{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+/*/////////////////////////////////Side-nav*/
+.sidenav{
+    background-image: url(../images/sidenav.png);
+    background-size: cover;
+}
+.background{
+    background-color: #2e2e2e;
+}
+/*/////////////////////////////////Estilos generales*/
+.gris-background{
+    background-color: #2e2e2e;
+}
+.verde-text{
+    color: #49977e;
+}
+.verde{
+    background-color: #49977e;
+}
+.gris-text{
+    color: #2e2e2e;
+}
+.margin-bottom-0{
+    margin-bottom: 0;
+}
+.margin-top-0{
+    margin-top: 0;
+}
+/*/////////////////////////////////Fondos de las secciones*/
+.servicios-background{
+    background-image: url(../images/sidenav.png);
+    background-size: cover;
+}
+.portafolio-background{
+    background-image: url(../images/portafolio.png);
+    background-size: cover;
+}
+.contacto-background{
+    background-image: url(../images/contacto.png);
+    background-size: cover;
+}
+.proyecto-background{
+    background-image: url(../images/christopher-gower-291246-unsplash.jpg);
+    background-size: cover;
+}
+/*/////////////////////////////////Portafolio*/
+.tabs .tab a.active {
+    background-color: rgba(46, 46, 46, 0.3)!important;
+    color: white !important;
+}
+
+/*.tabs .tab a:hover, .tabs .tab a.active{
+    background-color: transparent;
+    color: #49977e !important;
+}*/
+.tabs .tab a {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.tabs .indicator {
+    background-color: #2e2e2e;
+}
+
+.tabs{
+    background-color: transparent;
+}
+
+.portafolio{
+    width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.subportafolio{
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    transition: 0.5s;
+}
+.subportafolio .container{
+    display: none;
+    transition: 0.5s;
+}
+.portafolio:hover .subportafolio{
+    background-color: rgba(255, 255, 255, 1) ;
+}
+
+.portafolio:hover .subportafolio .container{
+    display: block;
+}
+
+/*/////////////////////////////////Footer*/
+
+.circle-div{
+    background-color: #4d4d4d;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    float: left;
+    transition: 0.3s;
+}
+.color-i{
+    color: #fff;
+    transition: 0.3s;
+}
+.circle-div:hover{
+    background-color: #fff;    
+}
+.circle-div:hover i{
+    color: #4d4d4d;
+}
+.circle-servicios{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border: solid 1px #2e2e2e;
+}
+
+.btn-service{
+    background-color: transparent;
+    color: #fff;
+    border: solid 1px #fff !important;
+}
+
+.servi:hover .circle-servicios{
+    background-color: #2e2e2e;
+    transition: 0.3s;
+}
+.servi:hover i{
+    color: #fff;
+    transition: 0.3s;
+}
+.btn-service:hover{
+    background-color: #fff;
+    color: #2e2e2e;
+}
+.carousel{
+    height: 350px !important;
+}
+.btn{
+    box-shadow: 0 0 0 0 rgba(0,0,0,0), 0 0 0 0 rgba(0,0,0,0), 0 0 0 0 rgba(0,0,0,0);
+}
+.btn:focus{
+    background-color: #2e2e2e !important;
+    color: #fff;
+}
+/*----------------------------------------------*/
+.simpsa{
+    background-image: url(../images/store.png);
+    background-size: cover;
+    height: 480px;
+    transition: 0.5s;
+}
+.simpsa:hover{
+    background-image: url(../images/store.jpg);
+    background-size: cover;
+}
+.app{
+    background-image: url(../images/app.png);
+    background-size: cover;
+    height: 480px;
+    transition: 0.5s;
+}
+.app:hover{
+    background-image: url(../images/app.jpg);
+    background-size: cover;
+}
+.lib{
+    background-image: url(../images/art.png);
+    background-size: cover;
+    height: 480px;
+}
+.lib:hover{
+    background-image: url(../images/art.jpg);
+    background-size: cover;
+}
+.cloud{
+    background-image: url(../images/cloud.png);
+    background-size: cover;
+    height: 480px;
+}
+.cloud:hover{
+    background-image: url(../images/cloud.jpg);
+    background-size: cover;
+}
+.portafolio-hover:hover .content-portafolio{
+    display: none;
+    transition: 0.5s;
+}
+.portafolio-hover:hover .circle-portafolio{
+    display: block;
+}
+
+
+.circle-portafolio{
+    background-color: #2e2e2e;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    margin-top: 200px;
+    display: none;
+    transition: 0.5s;
+}
+
+.more{
+    font-size: 40px; 
+    margin-top:20px;
+}
+@media only screen and (max-width: 600px){
+    .simpsa{
+        height: 300px;
+    }
+    .app{
+        height: 300px;
+    }
+    .circle-portafolio{
+        margin-top: 100px;
+    }
+    .tipo-content{
+        margin-top: 160px;
+    }
+    
+}
