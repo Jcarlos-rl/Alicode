@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alicode</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="container90">
+                <div class="nav-wrapper">
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons small azulfuerte-text">clear_all</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <img src="images/logo1.png" width="90" style="margin-top: 10px;" alt="">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Sidenav -->
+    <ul id="slide-out" class="sidenav paddingbottom0">
+        <div class="container90">
+            <a href="#"class="sidenav-close">
+                <h4>
+                    <i class="far fa-window-close azulfuerte-text"></i>
+                </h4>
+            </a>
+            <div class="container">
+                <a href="index.html">
+                    <h2 class="azulfuerte-text titillium-bold">INICIO</h2>
+                </a>
+                <a href="servicios.html">
+                    <h2 class="azulfuerte-text titillium-bold">SERVICIOS</h2>
+                </a>
+                <a href="portafolio.html">
+                    <h2 class="azulfuerte-text titillium-bold">PORTAFOLIO</h2>
+                </a>
+                <a href="contacto.html">
+                    <h2 class="azulfuerte-text titillium-bold">CONTACTO</h2>
+                </a>
+                <br class="hide-on-small-only">
+                <hr>
+                <br>
+                <h5>
+                    <div class="row">
+                        <div class="col m3 s3">
+                            <a href="">
+                                <i class="fab fa-facebook-f fb azulfuerte-text"></i>
+                            </a>
+                        </div>
+                        <div class="col m3 s3">
+                            <a href="">
+                                <i class="fab fa-instagram instagram azulfuerte-text"></i>
+                            </a>
+                        </div>
+                        <div class="col m3 s3">
+                            <a href="">
+                                <i class="fab fa-twitter twitter azulfuerte-text"></i>
+                            </a>
+                        </div>
+                        <div class="col m3 s3">
+                            <a href="">
+                                <i class="far fa-envelope mail azulfuerte-text"></i>
+                            </a>
+                        </div>
+                    </div>
+                </h5>
+            </div>
+        </div>
+    </ul>
+    <div class="header">
+        <div style="height: 30px"></div>
+        <h1 class="titillium-bold center marginbottom0 azulfuerte-text">PORTAFOLIO</h1>
+        <h5 class="center muli margintop0 azulfuerte-text">INICIO/<span class="azul-text">PORTAFOLIO</span></h5>
+        <p class="center">Software <i class="fas fa-code azulfuerte-text"></i> | Aplicaciones Móviles <i class="fas fa-mobile-alt azulfuerte-text"></i> | Sitios Web <i class="fas fa-laptop-code azulfuerte-text"></i> |  e-commerce <i class="fas fa-shopping-bag azulfuerte-text"></i></p>
+    </div>
+    <div class="spacing1" style="height: 50px"></div>
+    <div class="container-service">
+        <div class="row">
+            <div class="col m3">
+                <div class="container tablinks">
+                    <i class="fas fa-shopping-bag right azulfuerte-text"></i>
+                    <br>
+                    <div class="center simpsa img" onclick="tabs(event,'simpsa','activesimpsa')">
+                    </div>
+                    <hr id="activesimpsa" class="hr">
+                    <h6 class="muli center azulfuerte-text">Industriales Simpsa</h6>
+                </div>
+            </div>
+            <div class="col m3">
+                <div class="container tablinks">
+                    <i class="fas fa-mobile-alt right azulfuerte-text"></i>
+                    <br>
+                    <div class="center ali img" onclick="tabs(event,'ali','activeali')">
+                    </div>
+                    <hr id="activeali" class="hr">
+                    <h6 class="muli center azulfuerte-text">AliShipping</h6>
+                </div>
+            </div>
+            <div class="col m3">
+                <div class="container tablinks">
+                    <i class="fas fa-code right azulfuerte-text"></i>
+                    <br>
+                    <div class="center cloud img" onclick="tabs(event,'cloud','activecloud')">
+                    </div>
+                    <hr id="activecloud" class="hr">
+                    <h6 class="muli center azulfuerte-text">Cloud Bucket</h6>
+                </div>
+            </div>
+            <div class="col m3"></div>
+        </div>
+    </div>
+    <div id="simpsa" class="tabcontent">
+        <div class="container90">
+            <h1 class="titillium-bold center azulfuerte-text">INDUSTRIALES SIMPSA</h1>
+            <div style="height: 50px"></div>
+            <p class="muli">INICIO/PORTAFOLIO/<span class="azul-text">INDUSTRIALES SIMPSA </span><i class="fas fa-shopping-bag azul-text"></i></p>
+        </div>
+    </div>
+    <div id="ali" class="tabcontent">
+        <div class="container90">
+            <h1 class="titillium-bold center azulfuerte-text">ALISHIPPING</h1>
+            <div style="height: 50px"></div>
+            <p class="muli">INICIO/PORTAFOLIO/<span class="azul-text">ALISHIPPING </span><i class="fas fa-mobile-alt azul-text"></i></p>
+        </div>
+    </div>
+    <div id="cloud" class="tabcontent">
+        <div class="container90">
+            <h1 class="titillium-bold center azulfuerte-text">CLOUDBUCKET</h1>
+            <div style="height: 50px"></div>
+            <p class="muli">INICIO/PORTAFOLIO/<span class="azul-text">CLOUDBUCKET </span><i class="fas fa-code azul-text"></i></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+</body>
+</html>

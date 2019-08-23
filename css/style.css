@@ -1,357 +1,311 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+/*-----Estilos globales movil/tablet/desktop-----*/
+@import url('https://fonts.googleapis.com/css?family=Muli|Titillium+Web:400,900&display=swap');
 
-/*/////////////////////////////////Contenedores responsivos modificados*/
+body{
+  background-color: #E9EBF0;
+}
+.muli{
+  font-family: 'Muli', sans-serif;
+}
+
+.titillium{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.titillium-bold{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+}
 .container90{
-    margin:0 auto;
-    max-width:1280px;
-    width:90%
+  margin:0 auto;
+  max-width:1280px;
+  width:90%
 }
-@media only screen and (min-width: 601px){
-    .container90{
-        width:85%
-    }
+.container-service{
+  margin:0 auto;
+  max-width:1280px;
+  width:90%
 }
-@media only screen and (min-width: 993px){
-    .container90{
-        width:90%
-    }
-}
-
-.container80{
-    margin:0 auto;
-    max-width:1280px;
-    width:90%
-}
-@media only screen and (min-width: 601px){
-    .container80{
-        width:85%
-    }
-    .cien-vh{
-        height: 100vh;
-    }
-}
-@media only screen and (min-width: 993px){
-    .container80{
-        width:80%
-    }
-    .cien-vh{
-        height: 100vh;
-    }
-    .paquete-1{
-        margin-top: 40px;
-    }
-    .paquete-2{
-        padding-bottom: 40px !important;
-    }
-    .paquete-3{
-        margin-top: 40px;
-    }
-}
-
-/*/////////////////////////////////Tipografia*/
-
-.oswald{
-    font-family: 'Oswald', sans-serif;
-}
-
-.raleway{
-    font-family: 'Raleway', sans-serif;
-}
-
-
-/*/////////////////////////////////Espaciadores*/
-.spacing100{
-    height: 100px;
-}
-
-.spacing50{
-    height: 50px;
-}
-
-.spacing30vh{
-    height: 30vh;
-}
-
-.spacing20vh{
-    height: 20vh;
-}
-
-/*/////////////////////////////////Modificacion slider principal*/
-.relative-position{
+.contenido{
     position: relative;
+    z-index: 2;
 }
-.absolute-position {
-    position: absolute !important;
+.marginbottom0{
+  margin-bottom: 0;
 }
-.slider .slides{
-    background-color: white !important;
+.margintop0{
+  margin-top: 0;
 }
-
-
-/*/////////////////////////////////Nav*/
-.logo-nav{
-    margin-top: 0px;
-    width: 250px;
+.paddingbottom0{
+    padding-bottom: 0;
 }
-nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 70px !important;
-    line-height: 70px !important;
-}
-
-nav.nav-color{
-    background-color: transparent;
-}
-
-/*/////////////////////////////////Carousel*/
-.service{
-    width: 200px;
-    height: 200px;
-}
-.subservice{
-    width: 180px;
-    height: 180px;
-    margin: auto;
-    margin-top: 9px;
-    border: 1px solid rgba(10, 16, 33, 0.5);
-}
-.content{
-    margin-top: 5px;
-}
-.carousel .indicators .indicator-item.active{
-    background-color: #fff;
-}
-.carousel .indicators .indicator-item{
-    background-color: rgba(255, 255, 255, 0.5);
-}
-/*/////////////////////////////////Side-nav*/
-.sidenav{
-    background-image: url(../images/sidenav.png);
-    background-size: cover;
-}
-.background{
-    background-color: #2e2e2e;
-}
-/*/////////////////////////////////Estilos generales*/
-.gris-background{
-    background-color: #2e2e2e;
-}
-.verde-text{
-    color: #49977e;
-}
-.verde{
-    background-color: #49977e;
+.paddingtop0{
+    padding-top: 0;
 }
 .gris-text{
-    color: #2e2e2e;
+  color: #E9EBF0;
 }
-.margin-bottom-0{
-    margin-bottom: 0;
+.gris{
+  background-color: #E9EBF0;
 }
-.margin-top-0{
-    margin-top: 0;
+.azul-text{
+  color: #10A8E5;
 }
-/*/////////////////////////////////Fondos de las secciones*/
-.servicios-background{
-    background-image: url(../images/sidenav.png);
-    background-size: cover;
+.azul{
+  background-color: #10A8E5;
 }
-.portafolio-background{
-    background-image: url(../images/portafolio.png);
-    background-size: cover;
+.azulfuerte-text{
+  color: #4C505F;
 }
-.contacto-background{
-    background-image: url(../images/contacto.png);
-    background-size: cover;
+.azulfuerte{
+  background-color: #4C505F;
 }
-.proyecto-background{
-    background-image: url(../images/christopher-gower-291246-unsplash.jpg);
-    background-size: cover;
+.transparent{
+    color: transparent;
 }
-/*/////////////////////////////////Portafolio*/
-.tabs .tab a.active {
-    background-color: rgba(46, 46, 46, 0.3)!important;
-    color: white !important;
+a .fb:hover{
+  color: #3b5998;
+  transition: 0.5s;
 }
 
-/*.tabs .tab a:hover, .tabs .tab a.active{
-    background-color: transparent;
-    color: #49977e !important;
-}*/
-.tabs .tab a {
-    color: rgba(255, 255, 255, 0.5) !important;
+a .twitter:hover{
+  color: #1da1f2;
+  transition: 0.5s;
 }
 
-.tabs .indicator {
-    background-color: #2e2e2e;
+a .instagram:hover{
+  color: #fcaf45;
+  transition: 0.5s;
+}
+a .mail:hover{
+  color: black;
+  transition: 0.5s;
 }
 
-.tabs{
-    background-color: transparent;
+.btn-floating{
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 0;
+}
+.btn-floating i.whats{
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  font-size: 30px;
+}
+.slider .slides{
+  background-color: transparent !important;
 }
 
-.portafolio{
-    width: 100%;
-    height: 250px;
-    padding-top: 10px;
-    margin: auto;
+.slider .indicators .indicator-item.active{
+  background-color: #10A8E5;
+}
+.slider .indicators .indicator-item{
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #4C505F;
+  border-radius: 0 !important;
+}
+.slider{
+  margin-top: 10%;
+}
+.sidenav a h2{
+  letter-spacing: 2px;
+}
+nav{
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0.14), 0 0 0 0 rgba(0,0,0,0.12), 0 0 0 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.14), 0 0 0 0 rgba(0,0,0,0.12), 0 0 0 0 rgba(0,0,0,0.2);
+}
+.servicios svg{
+  fill: #4C505F;
+  width: 100px;
 }
 
-.subportafolio{
-    width: 95%;
-    height: 95%;
-    margin: auto;
-    transition: 0.5s;
-}
-.subportafolio .container{
-    display: none;
-    transition: 0.5s;
-}
-.portafolio:hover .subportafolio{
-    background-color: rgba(255, 255, 255, 1) ;
+.servicios svg:hover{
+  fill: #10A8E5;
+  width: 110px;
+  transition: .3s;
+  cursor: pointer;
 }
 
-.portafolio:hover .subportafolio .container{
-    display: block;
+svg.active{
+  fill: #10A8E5;
 }
 
-/*/////////////////////////////////Footer*/
-
-.circle-div{
-    background-color: #4d4d4d;
-    border-radius: 50%;
-    height: 35px;
-    width: 35px;
-    float: left;
-    transition: 0.3s;
-}
-.color-i{
-    color: #fff;
-    transition: 0.3s;
-}
-.circle-div:hover{
-    background-color: #fff;    
-}
-.circle-div:hover i{
-    color: #4d4d4d;
-}
-.circle-servicios{
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin: auto;
-    border: solid 1px #2e2e2e;
+.tablinks hr{
+  display: none;
 }
 
-.btn-service{
-    background-color: transparent;
-    color: #fff;
-    border: solid 1px #fff !important;
+.justify{
+  text-align: justify;
 }
-
-.servi:hover .circle-servicios{
-    background-color: #2e2e2e;
-    transition: 0.3s;
-}
-.servi:hover i{
-    color: #fff;
-    transition: 0.3s;
-}
-.btn-service:hover{
-    background-color: #fff;
-    color: #2e2e2e;
-}
-.carousel{
-    height: 350px !important;
-}
-.btn{
-    box-shadow: 0 0 0 0 rgba(0,0,0,0), 0 0 0 0 rgba(0,0,0,0), 0 0 0 0 rgba(0,0,0,0);
-}
-.btn:focus{
-    background-color: #2e2e2e !important;
-    color: #fff;
-}
-/*----------------------------------------------*/
 .simpsa{
-    background-image: url(../images/store.png);
-    background-size: cover;
-    height: 480px;
-    transition: 0.5s;
+  width: 100%;
+  height: 170px;
+  background-position: center center;
+  background-image: url(../images/simpsa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .simpsa:hover{
-    background-image: url(../images/store.jpg);
-    background-size: cover;
+  background-image: url(../images/simpsa1.png);
 }
-.app{
-    background-image: url(../images/app.png);
-    background-size: cover;
-    height: 480px;
-    transition: 0.5s;
+.simpsa.active{
+  background-image: url(../images/simpsa1.png);
 }
-.app:hover{
-    background-image: url(../images/app.jpg);
-    background-size: cover;
+.ali{
+  width: 100%;
+  height: 170px;
+  background-position: center center;
+  background-image: url(../images/paquetes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.lib{
-    background-image: url(../images/art.png);
-    background-size: cover;
-    height: 480px;
+.ali:hover{
+  background-image: url(../images/paquetes1.png);
 }
-.lib:hover{
-    background-image: url(../images/art.jpg);
-    background-size: cover;
+.ali.active{
+  background-image: url(../images/paquetes1.png);
 }
 .cloud{
-    background-image: url(../images/cloud.png);
-    background-size: cover;
-    height: 480px;
+  width: 100%;
+  height: 170px;
+  background-position: center center;
+  background-image: url(../images/cloudbucket.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .cloud:hover{
-    background-image: url(../images/cloud.jpg);
-    background-size: cover;
+  background-image: url(../images/cloudbucket1.png);
 }
-.portafolio-hover:hover .content-portafolio{
-    display: none;
-    transition: 0.5s;
+.cloud.active{
+  background-image: url(../images/cloudbucket1.png);
 }
-.portafolio-hover:hover .circle-portafolio{
-    display: block;
+/*-----Estilos solo movil-----*/
+#body{
+  background-color: #E9EBF0;
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+h2.titillium-bold{
+  font-size: 3rem;
+}
+h1.titillium-bold{
+  font-size: 3.5rem;
+}
+.fondo{
+  position: relative;
+  background-image: url(../images/head1.png);
+  background-size: cover;
+  height: 91vh;
+  width: 100%;
+}
+.logo-fondo{
+  position: absolute;
+  background-image: url(../images/head2.png);
+  background-size: cover;
+  z-index: 1;
+  width: 100%;
+  height: 91vh;
+}
+.logo img{
+  width: 80px;
+}
+.fixed-action-btn{
+  right: 78%;
+}
+.sidenav-trigger{
+  margin-left: 5px;
+}
+.logo-letter{
+  display: none;
+  position: fixed;
+  right: 23px;
+  bottom: 20px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  z-index: 997;
+}
+.btn-floating:hover{
+  background-color: #4C505F;
 }
 
-
-.circle-portafolio{
-    background-color: #2e2e2e;
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    margin: auto;
-    margin-top: 200px;
-    display: none;
-    transition: 0.5s;
+.sidenav{
+  width: 100%;
+  background-color: #E9EBF0;
+  height: 90vh;
+}
+@media only screen and (min-width: 601px){
+  .fondo{
+      height: 95vh;
+      margin-left: -30px;
+  }
+  .logo-fondo{
+      height: 100vh;
+  }
+  .fixed-action-btn{
+      right: 90%;
+  }
+  .logo img{
+      width: 120px;
+  }
+  .sidenav-trigger{
+      margin-left: 10px;
+  }
+  .logo-letter{
+      right: 60px;
+  }
+  #body{
+      position: relative;
+      height: 90vh;
+      width: 100%;
+      display: flex;
+  }
+  .sidenav{
+      width: 50%;
+      height: 100vh;
+  }
+  h2.titillium-bold{
+    font-size: 3.56rem;
+  }
+  h1.titillium-bold{
+    font-size: 6rem;
+  }
+}
+@media only screen and (min-width: 993px){
+  .btn-floating:hover{
+      background-color: #25d366;
+      border-radius: 50%;
+      transition: 0.5s;
+  }
+  .sidenav-trigger:hover i{
+      color: #10A8E5;
+      transition: 0.5s;
+  }
+  .sidenav a h2:hover{
+      color: #10A8E5;
+      transition: 0.8s;
+  }
+  .sidenav-close:hover i{
+      color: #10A8E5;
+      transition: 0.5s;
+  }
+  nav a.sidenav-trigger{
+    display: block !important;
+  }
 }
 
-.more{
-    font-size: 40px; 
-    margin-top:20px;
-}
-@media only screen and (max-width: 600px){
-    .simpsa{
-        height: 300px;
-    }
-    .app{
-        height: 300px;
-    }
-    .lib{
-        height: 300px;
-    }
-    .cloud{
-        height: 300px;
-    }
-    .circle-portafolio{
-        margin-top: 100px;
-    }
-    .tipo-content{
-        margin-top: 160px;
-    }
-    
+.tabcontent{
+  display: none;
 }

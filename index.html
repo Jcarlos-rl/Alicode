@@ -4,356 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alicode</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <title>Alicode</title>
-    <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="navbar-fixed absolute-position">
-        <nav class="nav-color">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo center">
-                        <h2 class="raleway logo-text" style="margin-top: 105px"><span class="verde-text">Ali</span>code</h2>
-                        <img src="images/logo.png" class="logo-nav" alt="">
-                    </a>
-                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="left hide-on-med-and-down menu">
-                        <li><a href="#servicios" class="white-text oswald">Servicios</a></li>
-                        <li><a href="#portafolio" class="white-text oswald">Portafolio</a></li>
-                    </ul>
-                    <ul class="right hide-on-med-and-down menu">
-                        <li><a href="" class="white-text oswald">Nosotros</a></li>
-                        <li><a href="#contacto" class="white-text oswald">Contacto</a></li>
-                    </ul>
+<body id="body">
+    <!-- Efecto mouse move  -->
+    <div class="fondo"></div>
+    <div class="logo-fondo">
+        <!-- Contenido del index -->
+        <div class="contenido">
+            <br>
+            <div class="container90">
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons small azulfuerte-text">clear_all</i></a>
+                <div class="logo right">
+                    <img src="images/logo1.png" alt="">
+                </div>
+                <div class="row">
+                    <div class="col m4 hide-on-small-only">
+                        <br>
+                        <p class="transparent">a</p>
+                    </div>
+                    <div class="col m8 s12">
+                        <div class="slider">
+                            <ul class="slides">
+                                <li id="primer-slider">
+                                    <img src="">
+                                    <div class="caption center-align">
+                                        <h1 class="azulfuerte-text titillium">Ali<span class="azul-text">code</span> es...</h1>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <div class="caption left-align">
+                                        <h3 class="azulfuerte-text titillium">Left Aligned Caption</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                <img src="">
+                                    <div class="caption right-align">
+                                        <h3 class="azulfuerte-text titillium">Right Aligned Caption</h3>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="">
+                                    <div class="caption center-align">
+                                        <h3 class="azulfuerte-text titillium">This is our big Tagline!</h3>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
     </div>
-    <ul id="slide-out" class="sidenav">
-        <li>
-            <div class="user-view">
-                <div class="background">
-                </div>
-                <a href="#user"><img class="circle" src="images/logo.png"></a>
-                <!--<a href="#name"><span class="white-text name">Nombre</span></a>-->
+    <!-- Sidenav -->
+    <ul id="slide-out" class="sidenav paddingbottom0">
+        <div class="container90">
+            <a href="#"class="sidenav-close">
+                <h4>
+                    <i class="far fa-window-close azulfuerte-text"></i>
+                </h4>
+            </a>
+            <div class="container">
+                <a href="index.html">
+                    <h2 class="azulfuerte-text titillium-bold">INICIO</h2>
+                </a>
+                <a href="servicios.html">
+                    <h2 class="azulfuerte-text titillium-bold">SERVICIOS</h2>
+                </a>
+                <a href="portafolio.html">
+                    <h2 class="azulfuerte-text titillium-bold">PORTAFOLIO</h2>
+                </a>
+                <a href="contacto.html">
+                    <h2 class="azulfuerte-text titillium-bold">CONTACTO</h2>
+                </a>
+                <br class="hide-on-small-only">
+                <hr>
                 <br>
+                <h5>
+                    <div class="row">
+                        <div class="col m3 s3">
+                            <a href="">
+                                <i class="fab fa-facebook-f fb azulfuerte-text"></i>
+                            </a>
+                        </div>
+                        <div class="col m3 s3">
+                            <a href="">
+                                <i class="fab fa-instagram instagram azulfuerte-text"></i>
+                            </a>
+                        </div>
+                        <div class="col m3 s3">
+                            <a href="">
+                                <i class="fab fa-twitter twitter azulfuerte-text"></i>
+                            </a>
+                        </div>
+                        <div class="col m3 s3">
+                            <a href="">
+                                <i class="far fa-envelope mail azulfuerte-text"></i>
+                            </a>
+                        </div>
+                    </div>
+                </h5>
             </div>
-        </li>
-        <li>
-            <a href="#servicios" class="oswald gris-text">Servicios</a>
-        </li>
-        <li>
-            <a href="#portafolio" class="oswald gris-text">Portafolio</a>
-        </li>
-        <li>
-            <a href="#!" class="oswald gris-text">Nosotros</a>
-        </li>
-        <li>
-            <a href="#contacto" class="oswald gris-text">Contacto</a>
-        </li>
+        </div>
     </ul>
-    <div class="slider relative-position">
-        <ul class="slides">
-            <li>
-            <img src="images/slider.png"> <!-- random image -->
-            <!--<div class="caption center-align">
-                <h3>This is our big Tagline!</h3>
-                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>-->
-            </li>
-            <li>
-            <img src="images/nate-grant-346782-unsplash.jpg"> <!-- random image -->
-            <!--<div class="caption left-align">
-                <h3>Left Aligned Caption</h3>
-                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>-->
-            </li>
-            <li>
-            <img src="images/nate-grant-346782-unsplash.jpg"> <!-- random image -->
-            <!--<div class="caption right-align">
-                <h3>Right Aligned Caption</h3>
-                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>-->
-            </li>
-        </ul>
+    <!-- Btn floating -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large azulfuerte pulse">
+            <i class="fab fa-whatsapp whats"></i>
+        </a>
     </div>
-    <div id="servicios">
-        <div class="container90">
-            <br>
-            <br>
-            <h3 class="center oswald verde-text margin-bottom-0">Servicios</h3>
-            <h6 class="raleway gris-text center margin-top-0">Ofrecemos Servicios Impresionantes</h6>
-            <div class="spacing50"></div>
-            <div class="row">
-                <div class="col m3 s6">
-                    <div class="center servi">
-                        <div class="circle-servicios">
-                            <i class="fas fa-laptop-code" style="font-size: 35px; margin-top: 22px"></i>
-                        </div>
-                        <br>
-                        <h5 class="gris-text oswald">Páginas Web</h5>
-                        <hr style="width: 40%">
-                        <p class="raleway">Desarrollo de páginas web, landing pages responsivas.</p>
-                        <br>
-                    </div> 
-                </div>
-                <div class="col m3 s6">
-                    <div class="center servi">
-                        <div class="circle-servicios">
-                            <i class="fas fa-mobile-alt" style="font-size: 40px; margin-top: 20px"></i>
-                        </div>
-                        <br>
-                        <h5 class="gris-text oswald">Aplicaciones Moviles</h5>
-                        <hr style="width: 40%">
-                        <p class="raleway">Aplicaciones móviles para iOS y Android.</p>
-                        <br>
-                    </div> 
-                </div>
-                <br class="hide-on-med-and-up">
-                <div class="col m3 s6">
-                    <div class="center servi">
-                        <div class="circle-servicios">
-                            <i class="fas fa-headset" style="font-size: 40px; margin-top: 20px"></i>
-                            
-                        </div>
-                        <br>
-                        <h5 class="gris-text oswald">Soporte Técnico</h5>
-                        <hr style="width: 40%">
-                        <p class="raleway">Asistencia a usuarios al utilizar algún producto o servicio.</p>
-                        <br>
-                    </div>
-                </div>
-                <div class="col m3 s6">
-                    <div class="center servi">
-                        <div class="circle-servicios">
-                            <i class="fas fa-cogs" style="font-size: 40px; margin-top: 20px"></i>
-                        </div>
-                        <br>
-                        <h5 class="gris-text oswald">Desarrollo a la Medida</h5>
-                        <hr style="width: 40%">
-                        <p class="raleway">¿Tienes un proyecto? Nosotros te ayudamos a realizarlo desde 0.</p>
-                        <br>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="center">
-                <img src="images/mockup.jpg" class="responsive-img" width="60%" alt="">
-            </div>
-        </div>
+    <div class="logo-letter">
+        <h4 class="titillium azulfuerte-text">Ali<span class="azul-text">code</span></h4>
     </div>
-    <div class="spacing100"></div>
-    <!-- Modales -->
-    <!-- Simpsa -->
-    <div id="simpsa" class="modal">
-        <div class="modal-content">
-            <h4 class="oswald">Industriales Simpsa</h4>
-            <div class="row">
-                <div class="col m8">
-                    <p class="raleway">Industriales simpsa es una empresa enfocada a la venta de herramienta del sector automotriz la cual queria expandir su mercado y adentrarce en las ventas en linea.</p>
-                    <h5 class="raleway">Solución</h5>
-                    <p class="raleway">Fue que nos dimos a la tarea de realizar una increíble tienda en linea la cual estuviera disponible para todos los dispositivos (Desktop, tablet y smartphone), con un diseño amigable sin dejar a lado la linea de la empresa. Integrando todos los productos en venta y diversos metodos de pago.</p>
-                </div>
-                <div class="col m4">
-                    <img src="images/simpsa.png" class="responsive-img" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
-        </div>
-    </div>
-    <!-- Lib art -->
-    <div id="lib" class="modal">
-        <div class="modal-content">
-            <h4 class="oswald">Lib/Art</h4>
-            <div class="row">
-                <div class="col m8">
-                    <p class="raleway">Lib/Art es una herramienta web que ofrece una experiencia unica en la visita a museos que no cuentan con guias. Solo se necesita de un dispositico movil con camara y un navegador para empezar a vivir la experiencia Lib/Art. </p> 
-                    <p class="raleway">Endocamos el arte y obtendremos información detallada de las obras expuestas en dichos museos.</p>
-                </div>
-                <div class="col m4">
-                    <img src="images/lib-art.png" class="responsive-img" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
-        </div>
-    </div>
-    <!-- alishipping -->
-    <div id="app" class="modal">
-        <div class="modal-content">
-            <h4 class="oswald">AliShipping</h4>
-            <div class="row">
-                <div class="col m8">
-                    <p class="raleway">AliShipping es una aplicación móvil para la entrega de paquetes, mediante el algoritmo del agente viajero y haciendo uso de los servicios de Google Maps, se traza la ruta óptima para que el repartidor realice un trayecto óptimo, aumentando la productividad y disminuyendo los gastos de transporte. Cuenta con una verificación de entrega que incluye fotografía de una identificación oficial y firma del destinatario.</p> 
-                </div>
-                <div class="col m4">
-                    <img src="images/icono_paquetes.png" class="responsive-img" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
-        </div>
-    </div>
-    <!-- cloud -->
-    <div id="cloud" class="modal">
-        <div class="modal-content">
-            <h4 class="oswald">Cloudbucket</h4>
-            <div class="row">
-                <div class="col m8">
-                    <p class="raleway">Cloudbucket es una plataforma web orientada a la realización de proyectos tecnológicos, mediante la aplicación se da la vinculación de un freelancer con un proyecto propuesto por un cliente con el fin de dar una solución al problema planteado, dicha vinculación es controlada por el cliente que elige al freelancer entre una serie de candidatos que envían sus propuestas..</p> 
-                </div>
-                <div class="col m4">
-                    <img src="images/cloudbucket.png" class="responsive-img" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
-        </div>
-    </div>
-    <div class="gris-background" id="portafolio">
-        <br>
-        <br>
-        <div class="container">
-            <h3 class="center white-text oswald margin-bottom-0">Portafolio</h3>
-            <p class="white-text raleway center ">En nuestra cartera, puede navegar por los últimos productos desarrollados para nuestros clientes para diferentes propósitos corporativos.</p>
-        </div>
-        <br>
-        <div class="row margin-bottom-0">
-            <div class="portafolio-hover">
-                <div class="col m3 s6 simpsa">
-                    <h4 class="white-text raleway content-portafolio">Industriales Simpsa</h4>
-                    <a href="#simpsa" class="modal-trigger">
-                        <div class="circle-portafolio">
-                            <div class="center">
-                                <i class="material-icons white-text more">add_circle</i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="portafolio-hover">
-                <div class="col m3 s6 app">
-                    <h4 class="white-text raleway content-portafolio">AliShipping</h4>
-                    <a href="#app" class="modal-trigger">
-                        <div class="circle-portafolio">
-                            <div class="center">
-                                <i class="material-icons white-text more">add_circle</i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="portafolio-hover">
-                <div class="col m3 s6 lib">
-                    <h4 class="white-text raleway content-portafolio">Lib/Art</h4>
-                    <a href="#lib" class="modal-trigger">
-                        <div class="circle-portafolio">
-                            <div class="center">
-                                <i class="material-icons white-text more">add_circle</i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="portafolio-hover">
-                <div class="col m3 s6 cloud">
-                    <h4 class="white-text raleway content-portafolio">Cloud Bucket</h4>
-                    <a href="#cloud" class="modal-trigger">
-                        <div class="circle-portafolio">
-                            <div class="center">
-                                <i class="material-icons white-text more">add_circle</i>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section id="contacto" class="contacto-background">
-        <div class="container90">
-            <div class="spacing100 hide-on-small-only"></div>
-            <br>
-            <br class="hide-on-med-and-up">
-            <div class="row">
-                <div class="col m3"></div>
-                <div class="col m6 white">
-                    <h3 class="center raleway gris-text">Contacto</h3>
-                    <form class="col s12" method="POST" action="mail.php">
-                        <div class="row">
-                            <div class="input-field col s6">
-                            <input id="first_name" type="text" class="validate" name="nombre">
-                            <label for="first_name">Nombre</label>
-                            </div>
-                            <div class="input-field col s6">
-                            <input id="last_name" type="text" class="validate" name="apellidos">
-                            <label for="last_name">Apellidos</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input id="tel" type="tel" class="validate" name="tel">
-                                <label for="tel">Telefono</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input id="email" type="email" class="validate" name="mail">
-                                <label for="email">E-mail</label>
-                            </div>
-                            <div class="input-field col s12">
-                            <input id="asunto" type="text" class="validate" name="asunto">
-                            <label for="asunto">Asunto</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <textarea id="textarea1" class="materialize-textarea" name="mensaje"></textarea>
-                                <label for="textarea1">Mensaje</label>
-                            </div>
-                        </div>
-                        <div class="center">
-                            <button class="btn  grey darken-3"><span class="raleway">Enviar</span></button>
-                        </div>
-                        <br>
-                    </form>
-                </div>
-                <div class="col m3"></div>
-            </div>
-            <br>
-        </div>
-    </section>
-    <footer class="page-footer gris-background">
-        <div class="container">
-            <div class="row">
-            <div class="col m9 s12">
-            </div>
-            <div class="col m3 s12">
-                <h5 class="white-text">Siguenos</h5>
-                <div class="circle-div center">
-                    <a href="https://www.instagram.com/alicode_mx/?hl=es-la" target="_blank">
-                        <i class="fab fa-instagram color-i" style="font-size: 25px; margin-top: 5px"></i>
-                    </a>
-                </div>
-                <div class="circle-div center" style="margin-left: 7px">
-                    <a href="https://www.facebook.com/AliCode-304042507128721/" target="_blank">
-                        <i class="fab fa-facebook-f color-i" style="font-size: 20px; margin-top: 8px"></i>
-                    </a>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-            © 2019 Copyright
-            </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/scrollflow.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
 </body>
 </html>
