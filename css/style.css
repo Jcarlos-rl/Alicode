@@ -190,6 +190,20 @@ svg.active{
 .cloud.active{
   background-image: url(../images/cloudbucket1.png);
 }
+.bleu{
+  width: 100%;
+  height: 170px;
+  background-position: center center;
+  background-image: url(../images/bleu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bleu:hover{
+  background-image: url(../images/bleu1.png);
+}
+.bleu.active{
+  background-image: url(../images/bleu1.png);
+}
 /*-----Estilos solo movil-----*/
 #body{
   background-color: #E9EBF0;
