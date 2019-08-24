@@ -48,7 +48,7 @@ $(document).ready(function(){
 });
 function tabs(evt, cityName, hr) {
     $(".header h1").css({"font-size":"3rem","transition":"0.2s"});
-    $(".header h5,.center h6,.header div,.header p,.container h6,.container p").css({"display":"none","transition":"0.2s"});
+    $(".header h5,.center h6,.header div,.header p,.container h6,.header p").css({"display":"none","transition":"0.2s"});
     $(".container-service").css({"margin":"0 auto","max-width":"1280px","width":"50%"});
     $(".servicios svg").css({"width":"50px"});
     $(".simpsa, .ali, .cloud, .bleu").css({"width":"100%","height":"90px"});
