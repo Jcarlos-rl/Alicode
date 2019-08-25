@@ -204,6 +204,36 @@ svg.active{
 .bleu.active{
   background-image: url(../images/bleu1.png);
 }
+.btn{
+  border-radius: 50px !important;
+}
+.input-field label {
+  color: #fff;
+}
+.input-field input[type=text]:focus + label {
+  color: #fff;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+.input-field .prefix.active {
+  color: #fff;
+}
+input[type=text]:not(.browser-default), input[type=email]:not(.browser-default),input[type=tel]:not(.browser-default), textarea.materialize-textarea {
+  border-bottom: 1px solid #fff;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]),input[type=tel]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+  border-bottom: 1px solid #fff;
+  box-shadow: 0 1px 0 0 #fff;
+}
+input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label,input[type=tel]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+  color: #fff;
+}
+.modal{
+  background-color: #4C505F !important;
+  max-height: 80% !important;
+}
 /*-----Estilos solo movil-----*/
 #body{
   background-color: #E9EBF0;

@@ -5,6 +5,7 @@ $(document).ready(function(){
         height: 190
     });
     $('.tabs').tabs();
+    $('.modal').modal();
 
     setTimeout(function(){
         $(".logo-letter").css({"display":"block","transition":"3s"})
